@@ -11,13 +11,14 @@
 <button v-else @click="likePost">
     likes
     <span>{{ likeCount }}</span>
+    
 </button>
 
 
 </template>
 
 
-<!-- acaa va la parte de script de Vue -->
+<!-- acaa del desarrollo de vue va la parte de script de Vue -->
 
 <script lang="ts" setup>
 import { ref, watch } from 'vue';
